@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}   
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}   
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Regular.eot');
+	src: local('Circe'), local('Circe-Regular'),
+		url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Regular.woff') format('woff'),
+		url('../fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-ExtraLight.eot');
+	src: local('Circe ExtraLight'), local('Circe-ExtraLight'),
+		url('../fonts/Circe-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-ExtraLight.woff') format('woff'),
+		url('../fonts/Circe-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Thin.eot');
+	src: local('Circe Thin'), local('Circe-Thin'),
+		url('../fonts/Circe-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Thin.woff') format('woff'),
+		url('../fonts/Circe-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Light.eot');
+	src: local('../fonts/Circe Light'), local('Circe-Light'),
+		url('../fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Light.woff') format('woff'),
+		url('../fonts/Circe-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-Bold.eot');
+	src: local('Circe Bold'), local('Circe-Bold'),
+		url('../fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Bold.woff') format('woff'),
+		url('../fonts/Circe-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/Circe-ExtraBold.eot');
+	src: local('Circe ExtraBold'), local('Circe-ExtraBold'),
+		url('../fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-ExtraBold.woff') format('woff'),
+		url('../fonts/Circe-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #000321;
+	background-image: url('../img/fon.jpg');
+	font-family: 'Roboto', sans-serif;
+	background-size: 100%;
+	background-position: 0 108px;
+}
+img {
+	max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1492px;
+}
+
+.header_white {
+    background: #fff;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -86px;
+}
+
+
+.header_cabinet {
+    display: flex;
+}
+
+.header_cabinet_link {
+    display: flex;
+    align-items: center;
+	margin: 8px 2px;
+    color: #000;
+	font-size: 16px;
+}
+
+.header_cabinet_link img {
+    margin-right: 6px;
+}
+
+.cos_link {
+	background: url('../img/soc.png') no-repeat;
+	width: 25px;
+    height: 25px;
+    margin-right: 4px;
+}
+
+.header_soc {
+    display: flex;
+    align-items: center;
+    margin: 0 32px;
+}
+
+.cos_link_ok {
+    background-position: -29px 0;
+}
+
+.cos_link_ins {
+    background-position: -59px 0;
+}
+
+.cos_link_face {
+    background-position: -87px 0;
+}
+
+.cos_link_you {
+    background-position: -114px 0;
+}
+
+.cos_link_tele {
+    background-position: -145px 0;
+}
+
+.cos_link_whatsapp {
+    background-position: -174px 0;
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.header_calen {
+    display: flex;
+    align-items: center;
+    background: #dd1c4b;
+    color: #fff;
+    padding: 5px 22px 5px 5px;
+    border-radius: 28px;
+}
+
+.header_calen img {
+    margin-right: 10px;
+}
+
+.header_phone {
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+    color: #000;
+}
+
+.header_phone img {
+    margin-right: 7px;
+}
+
+.header_contact {
+    display: flex;
+    margin: 37px 0 0 5px;
+    align-items: center;
+}
+
+.header_contact_info span {
+    color: #818181;
+    font-size: 14px;
+}
+
+.header_contact_info {
+    margin-left: 19px;
+}
+
+.header_contact img {
+	margin-top: -14px;
+}
+
+.header_phone_info {
+    margin: 8px 0 4px;
+}
+
+.header_phone_info a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.header_mail {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding-left: 26px;
+	background: url('../img/mail-blue.png') no-repeat;
+	background-position: 1px 5px;
+}
+
+.header_phone_info_whatsapp {
+    padding-left: 31px;
+	background: url('../img/what-white.png') no-repeat;
+}
+
+.header_maps_time {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.header_maps {
+    display: flex;
+    color: #fff;
+}
+
+.header_time {
+    font-size: 15px;
+    padding-left: 20px;
+    margin-left: 26px;
+	background: url('../img/time-blue.png') no-repeat;
+	background-position: 0 2px;
+}
+
+.header_time_center > span {
+    color: #818181;
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.header_maps_link {
+    font-size: 16px;
+    letter-spacing: .6px;
+}
+
+.header_time_center {
+	margin-left: 18px;
+}
+
+.header_maps_time img {
+    margin-top: 12px;
+}
+
+footer {
+	background: url('../img/fon_footer.jpg') no-repeat;
+	background-size: 100% auto;
+	font-family: 'Circe';
+	padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+	margin-bottom: 45px;
+	margin-left: 106px;
+	margin-right: 60px;
+}
+
+.footer_flex {
+    max-width: 20%;
+    width: 100%;
+}
+
+.footer_title {
+    color: #fff;
+    font-size: 24.5px;
+    margin-bottom: 40px;
+}
+
+.footer_news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.footer_news_title {
+    color: #fff;
+    font-size: 17.5px;
+}
+
+.footer_news img {
+    margin-right: 15px;
+    max-width: 116px;
+}
+
+.footer_menu a {
+    color: #ffc252;
+    padding-left: 20px;
+    font-size: 19px;
+    margin-bottom: 12px;
+    display: block;
+    position: relative;
+}
+
+.footer_menu a:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border-radius: 50%;
+	left: -2px;
+	top: 050%;
+	margin-top: -8px;
+}
+
+.footer_phone {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    margin-bottom: 11px;
+}
+
+.footer_phone a {
+    color: #fff;
+    font-size: 20.5px;
+    margin-bottom: 4px;
+}
+
+.footer_contact_block {
+    margin-left: 15px;
+}
+
+.footer_mail {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.footer_address {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.footer_address span {
+    display: block;
+    color: #ffc252;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.footer_soc {
+    display: flex;
+    margin-left: 101px;
+	align-items: center;
+}
+
+.footer_soc_title {
+    color: #fff;
+    font-size: 27px;
+    margin-right: 50px;
+}
+
+.footer_news_list > div:nth-child(2) {
+    margin: 0;
+}
+
+.footer_link {
+	background: url('../img/footer_seti.png') no-repeat;
+	width: 37px;
+	height: 37px;
+	display: block;
+    margin-right: 18px;
+}
+
+.footer_soc_seti {
+    display: flex;
+    margin-right: 61px;
+}
+
+.footer_link_ok {
+    background-position: -54px 0;
+}
+
+.footer_link_twe {
+    background-position: -110px 0;
+}
+
+.footer_link_face {
+    background-position: -164px 0;
+}
+
+.footer_link_you {
+    background-position: -220px 0;
+}
+
+.footer_link_insta {
+    background-position: -274px 0;
+}
+
+.footer_politika {
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer_politika:before {content: '';display: block;position: absolute;width: 4px;height: 4px;background: #fff;border-radius: 50%;left: -21px;top: 50%;margin-top: 0;}
+
+
+
+
+
+
+
+
+
+
