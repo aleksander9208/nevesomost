@@ -242,4 +242,39 @@ jQuery(function($) {
 			}
 		]
 	});
+	
+	
+	//Слайдер для Прайса
+	$('.prais_slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		// autoplay: true,
+		// autoplaySpeed: 2000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<div class="prev"><img src="img/prev.png"></div>',
+		nextArrow: '<div class="next"><img src="img/next.png"></div>',
+		responsive: [
+			{
+				breakpoint: 700,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	
+	
+	
+	
+	
 });
