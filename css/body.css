@@ -110,6 +110,10 @@ a {
     text-decoration: none;
 }
 
+.fon {
+	background-image: url('../img/fon_list.jpg');
+}
+
 .container {
     margin: 0 auto;
     padding: 0 15px;

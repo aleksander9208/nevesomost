@@ -1,0 +1,266 @@
+/* Аниматоры */
+.fon .menu-home {
+    margin-bottom: 32px;
+}
+
+.breadcrumbs a {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    padding-right: 28px;
+    margin-right: 21px;
+    position: relative;
+}
+
+.breadcrumbs ul {
+    display: flex;
+    font-family: 'Circe';
+    margin: 65px 0 35px;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+}
+
+.breadcrumbs .active {
+    color: #ffd064;
+    font-size: 18px;
+}
+
+.content h1 {
+    color: #fff;
+    font-family: 'Circe';
+    font-size: 41px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+
+.breadcrumbs a:before {content: '>';position: absolute;right: 0;font-size: 14px;top: 2px;}
+
+.animator_info {
+    display: flex;
+    font-family: 'Circe';
+    max-width: 76%;
+    margin-bottom: 75px;
+}
+
+.animator_img {
+    max-width: 224px;
+    width: 100%;
+    margin-right: 43px;
+    border-radius: 50%;
+    display: block;
+    border: 6px solid #144466;
+}
+
+.animator_img img {
+    border-radius: 50%;
+}
+
+.animator_title {
+    color: #ffd064;
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+.animator_content {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.animator_price {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.animator_price_info {
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.animator_cena {
+    color: #ffd064;
+    font-size: 18px;
+}
+
+.animator_orice_tochka {
+    width: 66px;
+    height: 14px;
+    border-bottom: 1px dashed;
+}
+
+.animator_vibor {
+    color: #fff;
+    padding-left: 27px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+/*Прайс*/
+.prais_title {
+    color: #fff;
+    font-family: 'Circe';
+    font-size: 38px;
+    margin-bottom: 22px;
+}
+
+.prais_yellow {
+    background: #ffe347;
+}
+
+.prais_green {
+    background: #1ac81c;
+}
+
+.prais_red {
+    background: #fe6936;
+}
+
+.prais_light {
+    background: #43a99e;
+}
+
+.prais_purple {
+    background: #c442c3;
+}
+
+.prais_blue {
+    background: #2c3cc4;
+}
+
+.prais_info {
+	max-width: 460px;
+	border-radius: 10px;
+    margin-right: 38px;
+	width: 100% !important;
+	max-height: 564px;
+}
+
+.prais_img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.prais_content {
+    background: #fff;
+    margin: -10px 10px 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.prais_info .prais_title {
+    color: #000;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 7px 0;
+    margin: 0;
+}
+
+.prais_cena {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 8px;
+}
+
+.prais_cena_time {
+    border-right: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    color: #000;
+    font-size: 16px;
+}
+
+.prais_cena_time span {
+    background: #ccc;
+    font-size: 20px;
+    color: #001e36;
+    padding: 4px 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.prais_cena_time a {
+    color: #001e36;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.prais_cena_bez {
+    border-right: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    color: #000;
+    font-size: 16px;
+}
+
+.prais_cena_bez span {
+    background: #ccc;
+    font-size: 20px;
+    color: #001e36;
+    padding: 4px 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.prais_cena_bez a {
+    color: #001e36;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+
+.prais_desc {
+    color: #313131;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 17px 30px;
+    line-height: 1.35;
+}
+
+.prais_slider {
+    margin-bottom: 47px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
