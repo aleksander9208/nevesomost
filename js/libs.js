@@ -273,8 +273,54 @@ jQuery(function($) {
 		]
 	});
 	
+	//аккардион
+	// $(".faq_title").click(function () {
+		// $('.faq_content').not(this).css('display','block');
+	// });
+	
+	$('.faq_title').click(function () {
+		$(this).toggleClass('faq_content_active').next().slideToggle();
+		$('.faq_content').not(this).removeClass('faq_content_active').next().slideUp();
+	});
 	
 	
+	let navs = document.querySelectorAll(".faq .faq_title");
+	navs.forEach(nav=>{
+		nav.addEventListener("click", ()=>{
+			nav.classList.toggle("open")
+			let content = nav.nextElementSibling
+			content.classList.toggle("selected");
+		})
+		
+	})
+	
+	$('.foto-slider_cafe').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		// autoplay: true,
+		// autoplaySpeed: 2000,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow: '<div class="prev"><img src="img/prev.png"></div>',
+		nextArrow: '<div class="next"><img src="img/next.png"></div>',
+		responsive: [
+			{
+				breakpoint: 700,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
 	
 	
 });
